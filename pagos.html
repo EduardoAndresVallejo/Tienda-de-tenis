@@ -35,12 +35,6 @@
         </div>
         <form id="formulario-cliente">
             <div class="datos-clientes">
-                <label for="foto">Elige una foto:</label>
-                <input type="file" id="foto" name="foto" accept="image/*">
-                <div class="nombre">
-                    <label for="nombre">Nombre completo:</label>
-                    <input type="text" id="nombre" placeholder="Ingrese su nombre">
-                </div>
                 <div class="direccion">
                     <label for="direccion">Dirección:</label>
                     <input type="text" id="direccion" placeholder="Ingrese la dirección">
@@ -83,7 +77,10 @@
                     <label for="cvc">CVC:</label>
                     <input type="text" id="cvc" placeholder="CVC" maxlength="4" pattern="^\d{3,4}$">
                 </div>
-                <button type="submit">Confirmar Compra</button>
+                <div class="btn-confirmar">
+                    <button type="submit">Confirmar Compra</button>
+                </div>
+                
             </div>
         </form>
     </div>
